@@ -29,7 +29,7 @@ opacityList.forEach(element => {
     
     element.addEventListener('click', function(){
   
-      element.style.visibility = "hidden";
+      element.style.width = "0px";
     })
   });
 
@@ -60,9 +60,10 @@ audio.play();
     for (let i = 0; i < imageRow.length; i++){
       
     
-            imageRow[i].style.opacity = .5;   
+            imageRow[i].style.width = 0;   
 
 }
 
 body.style.backgroundImage = "pictures/giphy.gif"
+
 });
